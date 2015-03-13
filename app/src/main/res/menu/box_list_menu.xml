@@ -3,26 +3,33 @@
 
     <item
         android:id="@+id/add_item"
-        android:icon="@drawable/abc_btn_check_to_on_mtrl_015"
-        android:title="add user"/>
+        android:icon="@drawable/ic_action_new"
+        android:showAsAction="always"
+        android:title="@string/menu_add_item"/>
 
     <item
         android:id="@+id/delete_items"
-        android:icon="@drawable/abc_ic_clear_mtrl_alpha"
-        android:title="delete user"/>
+        android:showAsAction="always"
+        android:icon="@drawable/ic_action_discard"
+        android:title="@string/menu_delete_items"/>
 
     <item
         android:id="@+id/random_user"
+        android:showAsAction="never"
         android:title="Generate User"/>
 
     <item
         android:id="@+id/random_Project"
+        android:showAsAction="never"
         android:title="Generate Project"/>
 
     <item
+        android:id="@+id/show_users"
+        android:showAsAction="never"
         android:title="View Users"/>
 
     <item
         android:id="@+id/show_projects"
+        android:showAsAction="never"
         android:title="View Projects"/>
 </menu>

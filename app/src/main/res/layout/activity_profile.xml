@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<ScrollView
+ <ScrollView
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
@@ -25,20 +25,15 @@
 
             android:background="@drawable/profile_background">
 
-            <com.limitlessvirtual.droidsembla.customs.CircleImageView
-                android:layout_width="wrap_content"
+            <ImageView
+
+                android:id="@+id/user_avatar"
+
+                android:layout_width="100dp"
+
                 android:layout_height="wrap_content"
-                android:src="@drawable/kc"/>
 
-            <!--<ImageView-->
-
-                <!--android:id="@+id/user_avatar"-->
-
-                <!--android:layout_width="wrap_content"-->
-
-                <!--android:layout_height="wrap_content"-->
-
-                <!--android:src="@drawable/ic_launcher"/>-->
+                android:src="@drawable/lived"/>
 
             <TextView
 
@@ -59,14 +54,14 @@
                 android:textSize="30dp"/>
 
             <View
-                android:background="#FF49A0FF"
+                android:background="#ff126dff"
                 android:layout_width="match_parent"
                 android:layout_height="1dp"/>
 
         </LinearLayout>
 
         <View
-            android:background="#FF49A0FF"
+            android:background="#ff126dff"
             android:layout_width="match_parent"
             android:layout_height="5dp"/>
 
@@ -104,10 +99,10 @@
                 android:layout_height="wrap_content"
 
                 android:text="15 Tickets Complete"/>
-        </LinearLayout>
-
+            </LinearLayout>
+        
         <View
-            android:background="#FF49A0FF"
+            android:background="#ff126dff"
             android:layout_width="match_parent"
             android:layout_height="5dp"/>
 
@@ -156,7 +151,7 @@
 
             android:layout_marginTop="30dp"
 
-            android:background="#ff49a0ff"
+            android:background="#ff126dff"
 
             android:text="Projects"
 
@@ -173,9 +168,9 @@
 
             android:layout_marginBottom="10dp"
 
-            android:background="#FF49A0FF"
+            android:background="#ff126dff"
 
-            android:text="Streams"
+            android:text="Participants"
 
             android:textSize="20dp"/>
 
